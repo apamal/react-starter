@@ -1,2 +1,5 @@
-#Node Modules
-node_modules
+# Node Modules
+/node_modules
+
+# Development
+/dev/bundle.js
