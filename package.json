@@ -16,7 +16,19 @@
     "url": "https://github.com/kqlee/react-starter/issues"
   },
   "homepage": "https://github.com/kqlee/react-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^0.14.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
   "dependencies": {
-    "react": "^15.3.0"
+    "babel-preset-stage-1": "^6.1.18",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
   }
 }
