@@ -4,7 +4,8 @@
   "description": "Starter repo for react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch src/client",
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
   }
